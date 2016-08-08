@@ -1,7 +1,5 @@
-title: About this Website
+_model: page
 ---
-body:
-
-This is a website that was made with the Lektor quickstart.
-
-And it does not contain a lot of information.
+title: About
+---
+body: We are Open Bee Lab
