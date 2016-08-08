@@ -1,2 +1,5 @@
 [project]
 name = Open Bee Lab
+
+[servers.demo]
+target = ghpages://em-ak/webeelab
