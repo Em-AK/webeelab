@@ -9,15 +9,19 @@
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — Open Bee Lab</title>
 <body class="container">
-  <header>
-    <h1>Open Bee Lab</h1>
-    <nav>
+  <header class="clearfix">
+    <div class="logo float-left">
+      <a href="/">
+        <img src="{{'/static/openbeelab.png'|asseturl }}" alt="Open Bee Lab logo">
+      </a>
+    </div>
+    <nav class="float-right">
       <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
         {% for href, title in [
-          ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['#projects', 'Projets'],
+          ['#contribute', 'Contribuer'],
+          ['#follow', 'Suivre'],
+          ['#contact', 'Contact']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>

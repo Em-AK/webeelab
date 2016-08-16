@@ -1,9 +1,36 @@
-title: Welcome to Open Bee Lab!
+title:
+
+Open Bee Lab
+
 ---
 body:
 
-OpenBeeLab est un programme de recherches Libres et Open-Source autour des abeilles. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques, et publications… et on [partage](https://wiki.openbeelab.org) tout ça.
+#### quote ####
+text: OpenBeeLab est un programme de recherches Libres et Open-Source autour des abeilles. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques, et publications… et on partage tout ça.
+#### divider ####
+#### quote ####
+text: Les projets libres appartiennent à ceux qui les font et profitent à tous ceux qui veulent les utiliser.
+#### project ####
+name: Beelance 4
+----
+picture: proto_final.jpg
+----
+goals:
 
-OpenBeelab is Free and open-source research programm about bees. We do software, hardware, databases, sensors, art, publications… and we [share](https://wiki.openbeelab.org) all of this.
-
-
+* masse
+* temperature
+* humidite
+----
+documentation: https://wiki.openbeelab.org/index.php/Beelance_-_4
+----
+contributors: PGP
+#### project ####
+name: Site web OpenBeeLab.org
+----
+picture: 
+----
+goals: * Lister toutes les ressources de la communaute
+----
+documentation: https://github.com/Em-AK/webeelab
+----
+contributors: [Emilien](https://twitter.com/Em_hack)
