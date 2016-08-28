@@ -32,6 +32,10 @@ img {
   margin: auto;
 }
 
+nav {
+  padding-right: 1.5em;
+}
+
 ul.navbar-nav {
   margin-top: 1em;
   padding: 0;
