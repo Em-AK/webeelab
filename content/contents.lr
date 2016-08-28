@@ -5,32 +5,77 @@ Open Bee Lab
 ---
 body:
 
-#### quote ####
+#### section ####
+id: about
+----
+content:
+
+##### markdown #####
 text: OpenBeeLab est un programme de recherches Libres et Open-Source autour des abeilles. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques, et publications… et on partage tout ça.
-#### divider ####
-#### quote ####
-text: Les projets libres appartiennent à ceux qui les font et profitent à tous ceux qui veulent les utiliser.
-#### project ####
+#### section ####
+id: projects
+----
+content:
+
+##### markdown #####
+text:
+
+## Nos projets
+
+> Les projets libres appartiennent à ceux qui les font et profitent à tous ceux qui veulent les utiliser.
+##### project #####
 name: Beelance 4
-----
+-----
 picture: proto_final.jpg
-----
+-----
 goals:
 
 * masse
 * temperature
 * humidite
-----
+-----
 documentation: https://wiki.openbeelab.org/index.php/Beelance_-_4
-----
-contributors: PGP
-#### project ####
+-----
+contributors: 
+##### project #####
 name: Site web OpenBeeLab.org
-----
+-----
 picture: 
-----
+-----
 goals: * Lister toutes les ressources de la communaute
-----
+-----
 documentation: https://github.com/Em-AK/webeelab
-----
+-----
 contributors: [Emilien](https://twitter.com/Em_hack)
+#### section ####
+id: contribute
+----
+content:
+
+##### markdown #####
+text:
+
+## Contribuer
+
+* La TODO list du Lab
+* Rejoins Open Bee Lab sur IRC
+* La mailing list pour le développement software et hardware
+* Nos repos git de travail
+* Toute la documentation des projets sur notre wiki
+#### section ####
+id: news
+----
+content:
+
+##### markdown #####
+text:
+
+## Actualités
+
+* La mailing list pour les grandes annonces (moins de 5 emails par an)
+* Nos tweets
+* Et aussi parfois sur facebook
+---
+_discoverable: no
+---
+_hidden: no

@@ -1,24 +1,60 @@
+/* Base style (applies to every screen size) */
+
 body {
   font-family: 'Asap', sans-serif;
+}
+
+.page {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+footer {
+  padding-bottom: 3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
-nav {
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo img {
+  max-width: 110px;
+  display: block;
+  margin: auto;
+}
+
+ul.navbar-nav {
   margin-top: 1em;
+  padding: 0;
 }
 
-ul.navbar-nav li {
+.navbar-nav li {
   display: inline;
-  margin-left: 1.2em;
+  margin-left: 1.2rem;
 }
 
-blockquote.quote {
+blockquote {
   font-size: 1.25em;
+}
+
+footer {
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.25em;
+}
+
+/* Larger than mobile screen (640px) */
+@media (min-width: 40.0rem) {
+
 }

@@ -1,13 +1,17 @@
 <!doctype html>
-<meta charset="utf-8">
-<!-- Google Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
-<!-- CSS Reset -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-<!-- Milligram CSS minified -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — Open Bee Lab</title>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Welcome{% endblock %} — Open Bee Lab</title>
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+  <!-- CSS Reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <!-- Milligram CSS minified -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
+  <!-- Website custom style -->
+  <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
+  <link rel="shortcut icon" href="{{ '/static/favicon.png'|asseturl }}" type="image/png">
+</head>
 <body class="container">
   <header class="clearfix">
     <div class="logo float-left">
@@ -18,13 +22,13 @@
     <nav class="float-right">
       <ul class="nav navbar-nav">
         {% for href, title in [
-          ['#projects', 'Projets'],
+          ['#projects', 'Nos Projets'],
           ['#contribute', 'Contribuer'],
-          ['#follow', 'Suivre'],
-          ['#contact', 'Contact']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
+          ['#news', 'Actus']
+          ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif %}>
+            <a href="{{ href|url }}">{{ title }}</a>
+          </li>
         {% endfor %}
       </ul>
     </nav>
@@ -32,4 +36,7 @@
   <div class="page">
     {% block body %}{% endblock %}
   </div>
+  <footer>
+    Contact <a href="mailto:hello@openbeelab.org">hello@openbeelab.org</a>
+  </footer>
 </body>

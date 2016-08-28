@@ -1,9 +1,5 @@
 {% extends "layout.html" %}
 {% block body %}
   <h1>{{ this.title }}</h1>
-  <div class="row">
-    <div class="column column-80 column-offset-10">
-      {{ this.body }}
-    </div>
-  </div>
+  {{ this.body }}
 {% endblock %}
