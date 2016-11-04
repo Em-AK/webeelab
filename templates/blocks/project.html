@@ -1,18 +1,16 @@
-<div class="project">
-  <h3>{{this.name}}</h3>
-  {% set img = record.attachments.images.get(this.picture) %}
-  {% if img %}
-    <div class="thumbnail-block">
-      <img src="{{ img.thumbnail(480)|url }}" alt="">
-    </div>
-  {% endif %}
-  {% if this.goals %}
-    <h4>Objectifs</h4>
-    {{this.goals}}
-  {% endif %}
-  {% if this.contributors %}
-    <h4>Contributeurs</h4>
-    {{this.contributors}}
-  {% endif %}
-  <a class="button" href="{{this.documentation}}">Voir la documentation</a>
-</div>
+<h3>{{this.name}}</h3>
+{% set img = record.attachments.images.get(this.picture) %}
+{% if img %}
+  <div class="thumbnail-block">
+    <img src="{{ img.thumbnail(480)|url }}" alt="">
+  </div>
+{% endif %}
+{% if this.goals %}
+  <h4>Objectifs</h4>
+  {{this.goals}}
+{% endif %}
+{% if this.contributors %}
+  <h4>Contributeurs</h4>
+  {{this.contributors}}
+{% endif %}
+<a class="button" href="{{this.documentation}}">Voir la documentation</a>

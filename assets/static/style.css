@@ -9,10 +9,6 @@ body {
   margin: 0 auto;
 }
 
-footer {
-  padding-bottom: 3em;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
@@ -46,19 +42,54 @@ ul.navbar-nav {
   margin-left: 1.2rem;
 }
 
-blockquote {
-  font-size: 1.25em;
-}
-
-footer {
-  text-align: center;
+.row {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #about p {
   font-size: 1.25em;
 }
 
-/* Larger than mobile screen (640px) */
+blockquote {
+  font-size: 1.25em;
+  border-left-color: #9b4dca;
+  background-color: #9b4dca33;
+}
+
+.block {
+  display: block;
+  margin-left: 0;
+  max-width: 100%;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.project {
+  flex: 1;
+}
+
+#projects {
+  flex-wrap: wrap;
+}
+
+footer {
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+/* Larger than mobile screen */
 @media (min-width: 40.0rem) {
 
 }
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+
+}
+

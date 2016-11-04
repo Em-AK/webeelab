@@ -1,4 +1,8 @@
-<section id="{{ this.id }}">
-  {{ this.content }}
+<section id="{{ this.id }}" class="row">
+  {% for blk in this.content.blocks %}
+  <div class="block {{ blk._flowblock }}">
+    {{ blk }}
+  </div>
+  {% endfor %}
   <hr>
 </section>
