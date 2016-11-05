@@ -42,9 +42,17 @@ ul.navbar-nav {
   margin-left: 1.2rem;
 }
 
+section {
+  background-image: url('signal-vs-noise.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: auto 50px;
+}
+
 .row {
-  padding-bottom: 40px;
-  margin-bottom: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #about p {
@@ -54,7 +62,7 @@ ul.navbar-nav {
 blockquote {
   font-size: 1.25em;
   border-left-color: #9b4dca;
-  background-color: #9b4dca33;
+  background-color: #EBDBF4;
 }
 
 .block {
@@ -67,6 +75,13 @@ blockquote {
 
 .project {
   flex: 1;
+}
+
+.project .button {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  max-width: 80%;
 }
 
 #projects {
