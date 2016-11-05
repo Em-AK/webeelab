@@ -11,7 +11,7 @@ id: about
 content:
 
 ##### markdown #####
-text: OpenBeeLab est un programme de recherches Libres et Open-Source autour des abeilles. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques, et publications… et on partage tout ça.
+text: OpenBeeLab est un programme de recherches **Libres** et **Open-Source** autour des **abeilles**. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques, et publications… et on partage tout ça.
 #### section ####
 id: projects
 ----
@@ -26,7 +26,7 @@ text:
 ##### project #####
 name: Beelance 4
 -----
-picture: proto_final.jpg
+picture: beelance_4_proto_final.jpg
 -----
 goals:
 
@@ -40,9 +40,12 @@ contributors:
 ##### project #####
 name: Site web OpenBeeLab.org
 -----
-picture: 
+picture: openbeelab_org_logo.png
 -----
-goals: * Lister toutes les ressources de la communaute
+goals:
+
+* Présenter l'OpenBeeLab et ses projets
+* Lister toutes les ressources de la communauté
 -----
 documentation: https://github.com/Em-AK/webeelab
 -----
@@ -57,11 +60,19 @@ text:
 
 ## Contribuer aux projets
 
-* La TODO list du Lab
-* Rejoins Open Bee Lab sur IRC
-* La mailing list pour le développement software et hardware
-* Nos repos git de travail
-* Toute la documentation des projets sur notre wiki
+Les portes de l'OpenBeeLab sont grandes ouvertes aux nouveaux-velles contributeurs-trices qui se reconaissent dans nos valeurs et dans nos buts. Quelles que soient tes compétences et tes envies n'hésite pas à venir nous en parler.
+
+### Trouver quelque chose à faire
+Jette un oeil à [la TODO liste du Lab](https://wiki.openbeelab.org/index.php/To-Do_List)
+
+### Faire connaissance et poser des questions
+* Rejoins [le canal **#openbeelab**](https://kiwiirc.com/client/irc.freenode.net/?nick=NewBee|?&theme=cli#openbeelab) sur IRC (freenode) pour discuter
+* Rejoins la [liste de diffusion dédiée au développement des projets](https://listes.aquilenet.fr/sympa/subscribe/openbeelab-staff)
+* Participe à l'une de [nos réunions de travail](https://wiki.openbeelab.org/index.php/Meetings_page) (promis ce n'est pas de la réunionite !)
+
+### Explorer nos outils de travail
+* La documentation des projets [sur notre wiki](https://wiki.openbeelab.org/index.php/Accueil)
+* [Les repos git](https://git.openbeelab.org/explore/repos) qui hébergent le code source de nos projets logiciels
 #### section ####
 id: news
 ----
@@ -72,9 +83,10 @@ text:
 
 ## Actualités
 
-* La mailing list pour les grandes annonces (moins de 5 emails par an)
-* Nos tweets
-* Et aussi parfois sur facebook
+Les actualités du Lab sont publiées sur :
+* [La liste de diffusion](https://listes.aquilenet.fr/sympa/subscribe/openbeelab) pour les grandes annonces (moins de 5 emails par an)
+* Notre [compte twitter](https://twitter.com/OpenBeeLab)
+* Et aussi sur [notre page facebook](https://www.facebook.com/openbeelab)
 ---
 _discoverable: no
 ---
