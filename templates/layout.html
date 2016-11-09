@@ -9,14 +9,24 @@
   <!-- Milligram CSS minified -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
   <!-- Website custom style -->
-  <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
-  <link rel="shortcut icon" href="{{ '/static/favicon.png'|asseturl }}" type="image/png">
+  <link rel="stylesheet" href="{{ '/static/style.css' | asseturl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ '/static/apple-touch-icon-57x57.png' | asseturl }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ '/static/apple-touch-icon-114x114.png' | asseturl }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ '/static/apple-touch-icon-72x72.png' | asseturl }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/static/apple-touch-icon-144x144.png' | asseturl }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ '/static/apple-touch-icon-120x120.png' | asseturl }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ '/static/apple-touch-icon-152x152.png' | asseturl }}" />
+  <link rel="icon" type="image/png" href="{{ '/static/favicon-32x32.png' | asseturl }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ '/static/favicon-16x16.png' | asseturl }}" sizes="16x16" />
+  <meta name="application-name" content="OpenBeeLab"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="{{ '/static/mstile-144x144.png' | asseturl }}" />
 </head>
 <body class="container">
   <header class="clearfix">
     <div class="logo float-left">
       <a href="/">
-        <img src="{{'/static/openbeelab.png'|asseturl }}" alt="Open Bee Lab logo">
+        <img src="{{'/static/openbeelab.png' | asseturl }}" alt="Open Bee Lab logo">
       </a>
     </div>
     <nav class="float-right">
