@@ -1,16 +1,24 @@
-<h3>{{this.name}}</h3>
+{% if this.name %}
+  <div class="header">
+    <h3>{{this.name}}</h3>
+  </div>
+{% endif %}
 {% set img = record.attachments.images.get(this.picture) %}
 {% if img %}
   <div class="thumbnail-block">
     <img src="{{ img.thumbnail(480)|url }}" alt="">
   </div>
 {% endif %}
-{% if this.goals %}
-  <h4>Objectifs</h4>
-  {{this.goals}}
-{% endif %}
+<a class="button" href="{{this.documentation}}">Voir la documentation</a>
+<div class="content">
+  {% if this.goals %}
+    <div class="goals">
+      {{this.goals}}
+    </div>
+  {% endif %}
+</div>
 {% if this.contributors %}
-  <h4>Contributeurs</h4>
-  {{this.contributors}}
+  <div class="contributors">
+    Réalisé par {{this.contributors}}
+  </div>
 {% endif %}
-<a class="button button-outline" href="{{this.documentation}}">Voir la documentation</a>
