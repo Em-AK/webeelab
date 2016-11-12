@@ -144,7 +144,7 @@ footer {
 @media (min-width: 65.0rem) {
   .project {
     max-width: 400px;
-    min-width: 20%;
+    min-width: 35%;
   }
 }
 
