@@ -1,5 +1,11 @@
 [project]
 name = Open Bee Lab
 
-[servers.demo]
+[servers.dev]
+name = Development
 target = ghpages://em-ak/webeelab
+
+[server.prod]
+name = Production
+default = yes
+target = rsync://USER@web.openbeelab.org/var/www/html
