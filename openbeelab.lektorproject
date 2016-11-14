@@ -5,7 +5,7 @@ name = Open Bee Lab
 name = Development
 target = ghpages://em-ak/webeelab
 
-[server.prod]
+[servers.prod]
 name = Production
 default = yes
 target = rsync://USER@web.openbeelab.org/var/www/html

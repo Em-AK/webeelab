@@ -17,8 +17,9 @@ a static CMS written in python.
 
 ### Deploy to production server
 
-1. Replace `USER` with your ssh username in `openbeelab.lektorproject`
-  > You should be authorized to `ssh USER@web.openbeelab.org`
+1. Open the file `openbeelab.lektorproject` and replace `USER` with your ssh username on the host
+   `web.openbeelab.org`
+  > You should have the right to `ssh USER@web.openbeelab.org`
 2. Build the site locally and deploy it via rsync: `lektor build && lektor deploy`
 
 ### Improve the structure
