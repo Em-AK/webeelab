@@ -24,32 +24,137 @@ text:
 
 > Les projets libres appartiennent à ceux qui les font et profitent à tous ceux qui veulent les utiliser.
 ##### project #####
+name: Beelance 5
+-----
+picture:
+
+Beelance_5_3D.png 
+-----
+goals:
+
+**En dévelopement**
+
+La première version d'une balance en kit qui se monte sans poste à souder ! Un grand pas pour rendre la construction de Beelance accessible à tous.
+-----
+documentation: https://wiki.openbeelab.org/index.php/Beelance_-_5
+-----
+contributors: [pgp](http://www.pierregrangepraderas.com/), Croissant, PierreBeck, Juan
+##### project #####
 name: Beelance 4
 -----
 picture: beelance_4_proto_final.jpg
 -----
-goals:
-
-* masse
-* temperature
-* humidite
+goals: Le chassis se fait plus compact que sur les versions précédentes. Retour aux sources technologiques avec un système de balance romaine pour s'affranchir de la dérive des capteurs par jauge de contrainte.
 -----
 documentation: https://wiki.openbeelab.org/index.php/Beelance_-_4
 -----
-contributors: 
+contributors: [pgp](http://www.pierregrangepraderas.com/), PierreBeck, Juan
+##### project #####
+name: Embeedian
+-----
+picture: 
+-----
+goals:
+
+**Version 3v8**
+
+Notre distribution dérivée de Debian qui tourne sur une carte embarquée dans Beelance et dans la station relais pour rucher. Elle embarque de l'applicatif en node.js qui traite les données des capteurs et synchronise la base de donnée locale (CouchDB) avec la base de donnée distante lorsque la connectivité le permet.
+-----
+documentation: https://wiki.openbeelab.org/index.php/Embeedian
+-----
+contributors: [pgp](http://www.pierregrangepraderas.com/), Eric, Rems2Rems
+##### project #####
+name: PCB
+-----
+picture: carte_pcb_openbeelab.jpg
+-----
+goals:
+
+**En développement**
+
+Cette carte électronique supervise l'alimentation électrique des différents composants ansi que la charge de la batterie au travers d'un panneau solaire. Elle est embarquée dans Beelance et dans Hotspot.
+-----
+documentation: 
+-----
+contributors: Damien
+##### project #####
+name: Base de donnée publique
+-----
+picture: 
+-----
+goals: Les bases de données publiques sont des instances de CouchDB. Elles contiennent l'historique des mesures  des différentes ruches équipées de notre dispositif. Les donnés annonymisées sont en accès publique sous licence ODBL.
+-----
+documentation: https://wiki.openbeelab.org/index.php/CouchDB
+-----
+contributors: Rems2Rems
+##### project #####
+name: Infrastructure
+-----
+picture: 
+-----
+goals:
+
+Nous sommes adhérents de l'association Aquilenet. Nous utilisons l'infrastructure de ce fournisseur d'accès Internet associatif membre fondateur de la Fédération FDN, Aquilenet est présent sur la région Aquitaine et à Bordeaux en particulier. Cette infrastructure est basée sur des logiciels libres et est entièrement maîtrisée dans le respect de la neutralité du Net. Nous disposons des ressources dont nous avons besoin: machines virtuelles, adresses IP (v4 et v6), services web (site Internet, wiki, git), réseau, sécurité, supervision, mises à jours, sauvegardes,  etc...  Enfin Aquilenet nous aide aussi dans la construction de l'architecture technique de notre infrastructure.
+
+La société Openema (SSII Hendayaise) héberge aussi 2 machines virtuelles pour le projet
+-----
+documentation: 
+-----
+contributors: Sacha (Lotusbleu), [Aquilenet](https://www.aquilenet.fr), Erjo, [Openema](http://www.openema.com/)
 ##### project #####
 name: Site web OpenBeeLab.org
 -----
 picture: openbeelab_org_logo.png
 -----
-goals:
-
-* Présenter l'OpenBeeLab et ses projets
-* Lister toutes les ressources de la communauté
+goals: Une page accueillante pour présenter l’OpenBeeLab, ses projets les plus fous, et les ressources utilisées par la communauté.
 -----
 documentation: https://github.com/Em-AK/webeelab
 -----
 contributors: [Emilien](https://twitter.com/Em_hack)
+##### project #####
+name: Hotspot
+-----
+picture: 
+-----
+goals:
+
+**En développement**
+
+C'est lui qui connecte les balances du rucher à internet par l'intermédiare d'une puce GPRS. Les balances se connectent au hotspot en wifi. Le hotspot est alimenté par panneaux solaires.
+-----
+documentation: 
+-----
+contributors: [pgp](http://www.pierregrangepraderas.com/)
+##### project #####
+name: Essaimage
+-----
+picture: 
+-----
+goals: LePhare(Lab) est un Hackerspace basé à Hendaye. Nous participons au développement et à la promotion du projet. Notre but est d'aider les apiculteurs à fabriquer leurs propres balances dans le 64.
+-----
+documentation: 
+-----
+contributors: [Le Phare(Lab)](http://www.net1901.org/association/LE-PHARELAB,1424263.html)
+##### project #####
+name: Le chant des abeilles
+-----
+picture: 
+-----
+goals: Tentative de rétro-ingienierer un système de prévision des essaimages par le son, qui a finit...en concert et qui nous a permis d'enregsitrer le chant des reines
+-----
+documentation: https://soundcloud.com/dumeaux-paysage/capc-ruche-extrait-1
+-----
+contributors: François Dumeaux
+##### project #####
+name: Rucher du CAPC
+-----
+picture: 
+-----
+goals: Rucher pionniers sur le toit du CAPC de Bordeaux
+-----
+documentation: https://wiki.openbeelab.org/index.php/Capc
+-----
+contributors: [pgp](http://www.pierregrangepraderas.com/), Frédéric Bret-Gaubaste
 #### section ####
 id: contribute
 ----
@@ -68,7 +173,7 @@ Jette un oeil à [la TODO liste du Lab](https://wiki.openbeelab.org/index.php/To
 ### Faire connaissance et poser des questions
 * Rejoins [le canal **#openbeelab**](https://kiwiirc.com/client/irc.freenode.net/?nick=NewBee|?&theme=cli#openbeelab) sur IRC (freenode) pour discuter
 * Rejoins la [liste de diffusion dédiée au développement des projets](https://listes.aquilenet.fr/sympa/subscribe/openbeelab-staff)
-* Participe à l'une de [nos réunions de travail](https://wiki.openbeelab.org/index.php/Meetings_page) (promis ce n'est pas de la réunionite !)
+* Participe à l'une de [nos réunions de travail](https://wiki.openbeelab.org/index.php/Meetings_page) (on déteste la réunionite !)
 
 ### Explorer nos outils de travail
 * La documentation des projets [sur notre wiki](https://wiki.openbeelab.org/index.php/Accueil)

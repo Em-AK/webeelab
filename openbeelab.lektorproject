@@ -8,4 +8,4 @@ target = ghpages://em-ak/webeelab
 [servers.prod]
 name = Production
 default = yes
-target = rsync://USER@web.openbeelab.org/var/www/html
+target = rsync://root@web.openbeelab.org/var/www/html
