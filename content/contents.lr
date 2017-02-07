@@ -52,7 +52,7 @@ contributors: [pgp](http://www.pierregrangepraderas.com/), PierreBeck, Juan
 ##### project #####
 name: Embeedian
 -----
-picture: 
+picture: embeedian.png
 -----
 goals:
 
@@ -74,13 +74,13 @@ goals:
 
 Cette carte électronique supervise l'alimentation électrique des différents composants ansi que la charge de la batterie au travers d'un panneau solaire. Elle est embarquée dans Beelance et dans Hotspot.
 -----
-documentation: 
+documentation: https://git.openbeelab.org/openbeelab/electronics
 -----
 contributors: Damien
 ##### project #####
 name: Base de donnée publique
 -----
-picture: 
+picture: couch_db.png
 -----
 goals: Les bases de données publiques sont des instances de CouchDB. Elles contiennent l'historique des mesures  des différentes ruches équipées de notre dispositif. Les donnés annonymisées sont en accès publique sous licence ODBL.
 -----
@@ -90,7 +90,7 @@ contributors: Rems2Rems
 ##### project #####
 name: Infrastructure
 -----
-picture: 
+picture: aquilenet_ffdn.png
 -----
 goals:
 
@@ -98,13 +98,13 @@ Nous sommes adhérents de l'association Aquilenet. Nous utilisons l'infrastructu
 
 La société Openema (SSII Hendayaise) héberge aussi 2 machines virtuelles pour le projet
 -----
-documentation: 
+documentation: https://wiki.openbeelab.org/index.php/Web.openbeelab.org
 -----
 contributors: Sacha (Lotusbleu), [Aquilenet](https://www.aquilenet.fr), Erjo, [Openema](http://www.openema.com/)
 ##### project #####
 name: Site web OpenBeeLab.org
 -----
-picture: openbeelab_org_logo.png
+picture: webeelab.png
 -----
 goals: Une page accueillante pour présenter l’OpenBeeLab, ses projets les plus fous, et les ressources utilisées par la communauté.
 -----
@@ -122,7 +122,7 @@ goals:
 
 C'est lui qui connecte les balances du rucher à internet par l'intermédiare d'une puce GPRS. Les balances se connectent au hotspot en wifi. Le hotspot est alimenté par panneaux solaires.
 -----
-documentation: 
+documentation: https://wiki.openbeelab.org/index.php/Hotspot_-_1
 -----
 contributors: [pgp](http://www.pierregrangepraderas.com/)
 ##### project #####
@@ -132,7 +132,7 @@ picture:
 -----
 goals: LePhare(Lab) est un Hackerspace basé à Hendaye. Nous participons au développement et à la promotion du projet. Notre but est d'aider les apiculteurs à fabriquer leurs propres balances dans le 64.
 -----
-documentation: 
+documentation: http://pharelab.org/
 -----
 contributors: [Le Phare(Lab)](http://pharelab.org/)
 ##### project #####
