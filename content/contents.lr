@@ -11,82 +11,47 @@ id: about
 content:
 
 ##### markdown #####
-text: OpenBeeLab est un programme de recherches **Libres** et **Open-Source** autour des **abeilles**. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques, et publications… et on partage tout ça.
+text: OpenBeeLab is **Free** and **Open-source** research programm around **bees**. We produce and share software, websites, hardware, sensors, art... to help beekeepers and scientists.
+OpenBeeLab est un programme de recherches **Libres** et **Open-Source** autour des **abeilles**. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques… pour aider les apiculteurs et les scientifiques.
+
+
 #### section ####
 id: projects
 ----
 content:
 
 ##### markdown #####
-text:
+text: 
 
+##### project #####
 ## Nos projets
 
-> Les projets libres appartiennent à ceux qui les font et profitent à tous ceux qui veulent les utiliser.
-##### project #####
-name: Beelance 5
------
-picture:
-
-Beelance_5_3D.png 
------
-goals:
-
-**En dévelopement**
-
-La première version d'une balance en kit qui se monte sans poste à souder ! Un grand pas pour rendre la construction de Beelance accessible à tous.
------
-documentation: https://wiki.openbeelab.org/index.php/Beelance_-_5
------
-contributors: [pgp](http://www.pierregrangepraderas.com/), Croissant, PierreBeck, Juan
-##### project #####
-name: Beelance 4
+name: Beehive Scales / Balances de ruches
 -----
 picture: beelance_4_proto_final.jpg
 -----
-goals: Le chassis se fait plus compact que sur les versions précédentes. Retour aux sources technologiques avec un système de balance romaine pour s'affranchir de la dérive des capteurs par jauge de contrainte.
+goals: This scales mesure the weight of your beehive and send you the data. Mechanical, because we find that accurest (20g precision, no drift even under 0°C, no complex temperature weight correction, easier to maintain, lower cost. They can be used with differents electronics, raspberryPi or esp8266, solar cells or battery, LORA, SIGFOX, WIFI or GSM data transmission.
+
+Ces balances mesurent le poids des ruches et envoient l'information sur le net. Elles sont mécaniques parceque nous trouvons ça plus pratique (20g de précision, pas de dérive même en dessous de 0°C, moins sensible aux changements de température, plus facile à réparer, moins onéreuses. Elles peuvent être utilisées avec différentes electroniques, raspberryPi ou esp8266, panneau solaires ou piles, LORA, SIGFOX, WIFI ou GSM pour l'envoi des données.
 -----
-documentation: https://wiki.openbeelab.org/index.php/Beelance_-_4
+documentation & participation : https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
 contributors: [pgp](http://www.pierregrangepraderas.com/), PierreBeck, Juan
+
 ##### project #####
-name: Embeedian
+name: OpenHiveManager
 -----
-picture: embeedian.png
+picture: openhivemanager.png
 -----
-goals:
+goals: This website try to help beekeepers to manage and monitor theyr beehives. Created by Kevin Grenêche, gifted to openbeelab, this system is now down. We search symphony devs to help.
 
-**Version 3v8**
+Ce site web a pour objectif d'aider les apiculteurs à suivre leurs ruches à distance et dans le temps. Créé par Kevin Grenêche qui nous l'a confié, le système necessite des modifications. Nous cherchons des devs symphony pour nous aider. 
 
-Notre distribution dérivée de Debian qui tourne sur une carte embarquée dans Beelance et dans la station relais pour rucher. Elle embarque de l'applicatif en node.js qui traite les données des capteurs et synchronise la base de donnée locale (CouchDB) avec la base de donnée distante lorsque la connectivité le permet.
 -----
-documentation: https://wiki.openbeelab.org/index.php/Embeedian
+documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
 contributors: [pgp](http://www.pierregrangepraderas.com/), Eric, Rems2Rems
-##### project #####
-name: PCB
------
-picture: carte_pcb_openbeelab.jpg
------
-goals:
 
-**En développement**
-
-Cette carte électronique supervise l'alimentation électrique des différents composants ansi que la charge de la batterie au travers d'un panneau solaire. Elle est embarquée dans Beelance et dans Hotspot.
------
-documentation: https://git.openbeelab.org/openbeelab/electronics
------
-contributors: Damien
-##### project #####
-name: Base de donnée publique
------
-picture: couch_db.png
------
-goals: Les bases de données publiques sont des instances de CouchDB. Elles contiennent l'historique des mesures  des différentes ruches équipées de notre dispositif. Les donnés annonymisées sont en accès publique sous licence ODBL.
------
-documentation: https://wiki.openbeelab.org/index.php/CouchDB
------
-contributors: Rems2Rems
 ##### project #####
 name: Infrastructure
 -----
@@ -96,65 +61,20 @@ goals:
 
 Nous sommes adhérents de l'association Aquilenet. Nous utilisons l'infrastructure de ce fournisseur d'accès Internet associatif membre fondateur de la Fédération FDN, Aquilenet est présent sur la région Aquitaine et à Bordeaux en particulier. Cette infrastructure est basée sur des logiciels libres et est entièrement maîtrisée dans le respect de la neutralité du Net. Nous disposons des ressources dont nous avons besoin: machines virtuelles, adresses IP (v4 et v6), services web (site Internet, wiki, git), réseau, sécurité, supervision, mises à jours, sauvegardes,  etc...  Enfin Aquilenet nous aide aussi dans la construction de l'architecture technique de notre infrastructure.
 
-La société Openema (SSII Hendayaise) héberge aussi 2 machines virtuelles pour le projet
 -----
-documentation: https://wiki.openbeelab.org/index.php/Web.openbeelab.org
+documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
 contributors: Sacha (Lotusbleu), [Aquilenet](https://www.aquilenet.fr), Erjo, [Openema](http://www.openema.com/)
 ##### project #####
-name: Site web OpenBeeLab.org
+name: Art experiments / Expériences artistiques
 -----
-picture: webeelab.png
+picture: capc.jpg
 -----
-goals: Une page accueillante pour présenter l’OpenBeeLab, ses projets les plus fous, et les ressources utilisées par la communauté.
------
-documentation: https://github.com/Em-AK/webeelab
------
-contributors: [Emilien](https://twitter.com/Em_hack)
-##### project #####
-name: Hotspot
------
-picture: 
------
-goals:
-
-**En développement**
-
-C'est lui qui connecte les balances du rucher à internet par l'intermédiare d'une puce GPRS. Les balances se connectent au hotspot en wifi. Le hotspot est alimenté par panneaux solaires.
------
-documentation: https://wiki.openbeelab.org/index.php/Hotspot_-_1
------
-contributors: [pgp](http://www.pierregrangepraderas.com/)
-##### project #####
-name: Essaimage
------
-picture: 
------
-goals: LePhare(Lab) est un Hackerspace basé à Hendaye. Nous participons au développement et à la promotion du projet. Notre but est d'aider les apiculteurs à fabriquer leurs propres balances dans le 64.
------
-documentation: http://pharelab.org/
------
-contributors: [Le Phare(Lab)](http://pharelab.org/)
-##### project #####
-name: Le chant des abeilles
------
-picture: 
------
-goals: Tentative de rétro-ingienierer un système de prévision des essaimages par le son, qui a finit...en concert et qui nous a permis d'enregsitrer le chant des reines
------
-documentation: https://soundcloud.com/dumeaux-paysage/capc-ruche-extrait-1
------
-contributors: François Dumeaux
-##### project #####
-name: Rucher du CAPC
------
-picture: 
------
-goals: Rucher pionniers sur le toit du CAPC de Bordeaux
+goals: Our experiments ends sometimes with hardware and software creations, but sometimes with art. We had an apiary on the rooftop of the Bordeaux Contemporary art Museum, five year long. During this time we produce scales, data, sculptures, exhibitions and sound.
 -----
 documentation: https://wiki.openbeelab.org/index.php/Capc
 -----
-contributors: [pgp](http://www.pierregrangepraderas.com/), Frédéric Bret-Gaubaste
+contributors: [pgp](http://www.pierregrangepraderas.com/), Frédéric Bret-Gaubaste, François Dumeaux,...
 #### section ####
 id: contribute
 ----
@@ -167,17 +87,12 @@ text:
 
 Les portes de l'OpenBeeLab sont grandes ouvertes aux nouveaux-velles contributeurs-trices qui se reconnaissent dans nos valeurs et dans nos buts. Quelles que soient tes compétences et tes envies n'hésite pas à venir nous en parler.
 
-### Trouver quelque chose à faire
-Jette un oeil à [la TODO liste du Lab](https://wiki.openbeelab.org/index.php/To-Do_List)
-
 ### Faire connaissance et poser des questions
 * Rejoins [le canal **#openbeelab**](https://kiwiirc.com/client/irc.freenode.net/?nick=NewBee|?&theme=cli#openbeelab) sur IRC (freenode) pour discuter
 * Rejoins la [liste de diffusion dédiée au développement des projets](https://listes.aquilenet.fr/sympa/subscribe/openbeelab-staff)
-* Participe à l'une de [nos réunions de travail](https://wiki.openbeelab.org/index.php/Meetings_page) (on déteste la réunionite !)
 
 ### Explorer nos outils de travail
-* La documentation des projets [sur notre wiki](https://wiki.openbeelab.org/index.php/Accueil)
-* [Les repos git](https://git.openbeelab.org/explore/repos) qui hébergent le code source de nos projets logiciels
+* La documentation des projets [sur notre wiki](https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki)
 #### section ####
 id: news
 ----
@@ -190,8 +105,6 @@ text:
 
 Les actualités du Lab sont publiées sur :
 * [La liste de diffusion](https://listes.aquilenet.fr/sympa/subscribe/openbeelab) pour les grandes annonces (moins de 5 emails par an)
-* Notre [compte twitter](https://twitter.com/OpenBeeLab)
-* Et aussi sur [notre page facebook](https://www.facebook.com/openbeelab)
 ---
 _discoverable: no
 ---
