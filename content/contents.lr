@@ -35,7 +35,7 @@ goals: This scales mesure the weight of your beehive and send you the data. Mech
 
 Ces balances mesurent le poids des ruches et envoient l'information sur le net. Elles sont mécaniques parceque nous trouvons ça plus pratique (20g de précision, pas de dérive même en dessous de 0°C, moins sensible aux changements de température, plus facile à réparer, moins onéreuses. Elles peuvent être utilisées avec différentes electroniques, raspberryPi ou esp8266, panneau solaires ou piles, LORA, SIGFOX, WIFI ou GSM pour l'envoi des données.
 -----
-documentation & participation : https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
+documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
 contributors: [pgp](http://www.pierregrangepraderas.com/), PierreBeck, Juan
 
