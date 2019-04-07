@@ -48,9 +48,9 @@ goals: This website try to help beekeepers to manage and monitor theyr beehives.
 Ce site web a pour objectif d'aider les apiculteurs à suivre leurs ruches à distance et dans le temps. Créé par Kevin Grenêche qui nous l'a confié, le système necessite des modifications. Nous cherchons des devs symphony pour nous aider. 
 
 -----
-documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
+documentation: https://github.com/openbeelab/OpenHiveManager
 -----
-contributors: [pgp](http://www.pierregrangepraderas.com/), Eric, Rems2Rems
+contributors: Kevin Greneche, Cryptobioz
 
 ##### project #####
 name: Infrastructure
@@ -60,6 +60,7 @@ picture: aquilenet_ffdn.png
 goals:
 
 Nous sommes adhérents de l'association Aquilenet. Nous utilisons l'infrastructure de ce fournisseur d'accès Internet associatif membre fondateur de la Fédération FDN, Aquilenet est présent sur la région Aquitaine et à Bordeaux en particulier. Cette infrastructure est basée sur des logiciels libres et est entièrement maîtrisée dans le respect de la neutralité du Net. Nous disposons des ressources dont nous avons besoin: machines virtuelles, adresses IP (v4 et v6), services web (site Internet, wiki, git), réseau, sécurité, supervision, mises à jours, sauvegardes,  etc...  Enfin Aquilenet nous aide aussi dans la construction de l'architecture technique de notre infrastructure.
+Récemment Auvernet est venu nous prêter main forte en nous hébergeant une autre machine afin d'héberger OpenHiveManager. Grand Merci à eux.
 
 -----
 documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
@@ -72,9 +73,9 @@ picture: capc.jpg
 -----
 goals: Our experiments ends sometimes with hardware and software creations, but sometimes with art. We had an apiary on the rooftop of the Bordeaux Contemporary art Museum, five year long. During this time we produce scales, data, sculptures, exhibitions and sound.
 -----
-documentation: https://wiki.openbeelab.org/index.php/Capc
+documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
-contributors: [pgp](http://www.pierregrangepraderas.com/), Frédéric Bret-Gaubaste, François Dumeaux,...
+contributors: [pgp](http://www.pierregrangepraderas.net), Frédéric Bret-Gaubaste, François Dumeaux,...
 #### section ####
 id: contribute
 ----
