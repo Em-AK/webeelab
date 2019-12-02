@@ -1,6 +1,6 @@
 title:
 
-Open Bee Lab
+OpenBeeLab
 
 ---
 body:
@@ -11,9 +11,9 @@ id: about
 content:
 
 ##### markdown #####
-text: OpenBeeLab is **Free** and **Open-source** research programm around **bees**. We produce and share software, websites, hardware, sensors, art... to help beekeepers and scientists.
+text: OpenBeeLab is **Art** and **technology**, **Free** and **Open-source** research programm around **bees**. We produce and share software, arts, websites, hardware, sensors... and maybe help some people like beekeepers or scientists.
 
-OpenBeeLab est un programme de recherches **Libres** et **Open-Source** autour des **abeilles**. On produit logiciels, matériels, capteurs, dispositifs, gestes artistiques… pour aider les apiculteurs et les scientifiques.
+OpenBeeLab est un programme de recherches **Art** et **technologie**, **Libre** et **Open-Source** autour des **abeilles**. On produit des logiciels, des empiries d'art, du matériel, des capteurs… ça aidera peut-être des gens comme des apiculteurs ou des scientifiques.
 
 
 #### section ####
@@ -26,17 +26,49 @@ text:
 ## Nos projets
 ##### project #####
 
+name: Atelier OpenBeeLab - Hall Noir
+-----
+picture: Workshop-Chateau-d-eau-2.svg.png
+-----
+goals: Atelier d’expérimentation entre les abeilles partenaires, l’électronique et les réseaux numériques, avec Pierre Grangé-Praderas. Durant les 2 semaines, L’atelier Art-Science propose d’habiter avec les élèves le Château d’eau de Bourges en expérimentant entre abeilles, électronique et réseaux numériques. Il est prévu d’installer une ruche d’exposition, communiquant sur l’extérieur, d’en tirer du son et des images pour le diffuser sur place et en live sur le net, de tracer au sol à la cire des formes inspirées de positions astronomiques, de constantes physiques et de symboles humains. Le tout sera compilé et partagé sous une forme proche du conte afin de conserver la complexité et de garder la possibilité d’une interprétation.
+
+-----
+documentation: https://projets.cohabit.fr/redmine/projects/hall-noir/wiki
+-----
+contributors: [pgp](http://www.pierregrangepraderas.com/), 12 art students (list in the wiki)
+
+##### project #####
+
 name: Beehive Scales / Balances de ruches
 -----
 picture: beelance_4_proto_final.jpg
 -----
-goals: This scales mesure the weight of your beehive and send you the data. Mechanical, because we find that accurest (20g precision, no drift even under 0°C, no complex temperature weight correction, easier to maintain, lower cost. They can be used with differents electronics, raspberryPi or esp8266, solar cells or battery, LORA, SIGFOX, WIFI or GSM data transmission.
+goals: This scales mesure the weight of your beehive and send you the data. Mechanical, because we find that accurest (20g precision, no drift even un
+der 0°C, no complex temperature weight correction, easier to maintain, lower cost. They can be used with differents electronics, raspberryPi or esp826
+6, solar cells or battery, LORA, SIGFOX, WIFI or GSM data transmission.
 
-Ces balances mesurent le poids des ruches et envoient l'information sur le net. Elles sont mécaniques parceque nous trouvons ça plus pratique (20g de précision, pas de dérive même en dessous de 0°C, moins sensible aux changements de température, plus facile à réparer, moins onéreuses. Elles peuvent être utilisées avec différentes electroniques, raspberryPi ou esp8266, panneau solaires ou piles, LORA, SIGFOX, WIFI ou GSM pour l'envoi des données.
+Ces balances mesurent le poids des ruches et envoient l'information sur le net. Elles sont mécaniques parceque nous trouvons ça plus pratique (20g de 
+précision, pas de dérive même en dessous de 0°C, moins sensible aux changements de température, plus facile à réparer, moins onéreuses. Elles peuvent 
+être utilisées avec différentes electroniques, raspberryPi ou esp8266, panneau solaires ou piles, LORA, SIGFOX, WIFI ou GSM pour l'envoi des données.
 -----
 documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
 contributors: [pgp](http://www.pierregrangepraderas.com/), PierreBeck, Juan
+
+##### project #####
+name: Art-experiments   / Expériences artistiques
+-----
+picture: capc.jpg
+-----
+goals: Our experiments ends sometimes with hardware and software creations, but sometimes with art. We had an apiary on the rooftop of the Bordeaux Co
+ntemporary art Museum, five year long. During this time we produce scales, data, sculptures, exhibitions and sound.
+Nos expériences finissent parfois par donner des inventions technologiques, parfois des empiries d'art. Pendant cinq ans nous avons été accueillis ave
+c notre rucher par le capc, musée d'art contemporain de la ville de Bordeaux. On a fait chanter des abeilles, on les a fait sculpter, participer à des
+ expositions...
+-----
+documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Art_developments
+-----
+contributors: [pgp](http://www.pierregrangepraderas.net), Frédéric Bret-Gaubaste, François Dumeaux,...
 
 ##### project #####
 name: OpenHiveManager
@@ -48,9 +80,9 @@ goals: This website try to help beekeepers to manage and monitor theyr beehives.
 Ce site web a pour objectif d'aider les apiculteurs à suivre leurs ruches à distance et dans le temps. Créé par Kevin Grenêche qui nous l'a confié, le système necessite des modifications. Nous cherchons des devs symphony pour nous aider. 
 
 -----
-documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
+documentation: https://github.com/openbeelab/OpenHiveManager
 -----
-contributors: [pgp](http://www.pierregrangepraderas.com/), Eric, Rems2Rems
+contributors: Kevin Greneche, Cryptobioz
 
 ##### project #####
 name: Infrastructure
@@ -59,22 +91,15 @@ picture: aquilenet_ffdn.png
 -----
 goals:
 
-Nous sommes adhérents de l'association Aquilenet. Nous utilisons l'infrastructure de ce fournisseur d'accès Internet associatif membre fondateur de la Fédération FDN, Aquilenet est présent sur la région Aquitaine et à Bordeaux en particulier. Cette infrastructure est basée sur des logiciels libres et est entièrement maîtrisée dans le respect de la neutralité du Net. Nous disposons des ressources dont nous avons besoin: machines virtuelles, adresses IP (v4 et v6), services web (site Internet, wiki, git), réseau, sécurité, supervision, mises à jours, sauvegardes,  etc...  Enfin Aquilenet nous aide aussi dans la construction de l'architecture technique de notre infrastructure.
+Nous sommes adhérents de l'association Aquilenet. Nous utilisons l'infrastructure de ce fournisseur d'accès Internet associatif et d'Auvernet autre membre de la Fédération FDN. Aquilenet est présent sur la région Aquitaine et à Bordeaux en particulier. Cette infrastructure est basée sur des logiciels libres et est entièrement maîtrisée dans le respect de la neutralité du Net. Nous disposons des ressources dont nous avons besoin: machines virtuelles, adresses IP (v4 et v6), services web (site Internet, wiki, git), réseau, sécurité, supervision, mises à jours, sauvegardes,  etc...  Enfin Aquilenet nous aide aussi dans la construction de l'architecture technique de notre infrastructure.
+Récemment Auvernet est venu nous prêter main forte en nous hébergeant une autre machine afin d'héberger OpenHiveManager. Grand Merci à eux.
 
 -----
 documentation: https://atelier.aquilenet.fr/projects/openbeelab/wiki/Wiki
 -----
 contributors: Sacha (Lotusbleu), [Aquilenet](https://www.aquilenet.fr), Erjo, [Openema](http://www.openema.com/)
-##### project #####
-name: Art experiments / Expériences artistiques
------
-picture: capc.jpg
------
-goals: Our experiments ends sometimes with hardware and software creations, but sometimes with art. We had an apiary on the rooftop of the Bordeaux Contemporary art Museum, five year long. During this time we produce scales, data, sculptures, exhibitions and sound.
------
-documentation: https://wiki.openbeelab.org/index.php/Capc
------
-contributors: [pgp](http://www.pierregrangepraderas.com/), Frédéric Bret-Gaubaste, François Dumeaux,...
+
+
 #### section ####
 id: contribute
 ----
@@ -105,6 +130,11 @@ text:
 
 Les actualités du Lab sont publiées sur :
 * [La liste de diffusion](https://listes.aquilenet.fr/sympa/subscribe/openbeelab) pour les grandes annonces (moins de 5 emails par an)
+
+## Contact
+
+* IRC : freenode, #openbeelab 
+
 ---
 _discoverable: no
 ---
